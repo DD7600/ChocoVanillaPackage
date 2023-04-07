@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='C:/Users/WinD/Documents/Prog/Python/OOP'
+let g:netrw_dirhist_8='C:\Users\WinD\Documents\Prog\Python'
+let g:netrw_dirhist_7='C:/Users/WinD/Documents/Prog/Python'
+let g:netrw_dirhist_6='C:/Users/WinD/Documents/Prog'
+let g:netrw_dirhist_5='C:/Users/WinD/Documents'
+let g:netrw_dirhist_4='C:\Users\WinD'
+let g:netrw_dirhist_3='C:/Users/WinD/Documents/Prog/Java/AnneTassoExo'
+let g:netrw_dirhist_2='C:/Users/WinD/Documents/Prog/C++/ZDScpp'
+let g:netrw_dirhist_1='C:/Users/WinD/Documents/Prog/C++'
+let g:netrw_dirhist_0='C:/Users/WinD/Documents/Prog'

@@ -1,0 +1,54 @@
+set number    "line number
+syntax on
+syntax enable
+set mouse=a
+set autoindent
+set smartindent
+set smartcase
+set wrap
+set showmatch "Show matching words during search
+set shiftwidth=2 "number of spaces to use for indenting
+set softtabstop=2 "number of tabs to use for indenting
+set tabstop=2
+set undofile
+set guifont=Courier_New:h11
+
+"highlighting search
+set hlsearch "highlighting when doing a search
+set nohlsearch "disable highlighting after search
+set incsearch "search incrementally 
+let NERDTreeShowHidden=1
+
+"move lines with ctrl + j/k
+nnoremap <C-j> :m -2<CR>
+nnoremap <C-k> :m +1<CR>
+"move to next buffer
+nmap <C-t> :enew<CR>
+nmap <C-n> :bnext<CR>
+"move to previous buffer
+nmap <C-b> :bprevious<CR>
+"close the current buffer
+nmap <C-x> :bd<CR>
+"show all open buffers and their status
+nmap <C-l> :ls<CR>
+
+set wildmenu "Display all matching files when tab complete
+set backspace=indent,eol,start
+
+call plug#begin()
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'https://github.com/tpope/vim-commentary'
+Plug 'scrooloose/syntastic'
+call plug#end()
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+colorscheme desert

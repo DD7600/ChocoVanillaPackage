@@ -1,0 +1,21 @@
+[user]
+	email = doudoudiawara3@gmail.com
+	name = doudou diawara
+
+[core]
+	editor = vim
+	excludesfile = %USERPROFILE%/.gitignore-global
+[color]
+	ui = true
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[merge]
+	tool = meld
+	
+[credential]
+	helper = cache
+[gc]
+	reflogExpire = 200
+	reflogExpireUnreachable = 90

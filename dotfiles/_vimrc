@@ -1,0 +1,39 @@
+set number    "line number
+syntax on
+syntax enable
+set mouse=a
+set autoindent
+set smartindent
+set smartcase
+set wrap
+set showmatch "Show matching words during search
+set shiftwidth=2 "number of spaces to use for indenting
+set softtabstop=2 "number of tabs to use for indenting
+set tabstop=2
+set undofile
+
+"highlighting search
+set hlsearch "highlighting when doing a search
+set nohlsearch "disable highlighting after search
+set incsearch "search incrementally 
+let NERDTreeShowHidden=1
+set backspace=indent,eol,start
+
+set wildmenu "Display all matching files when tab complete
+
+call plug#begin()
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'https://github.com/tpope/vim-commentary'
+Plug 'scrooloose/syntastic'
+call plug#end()
+
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
