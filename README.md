@@ -20,7 +20,7 @@ All applications are very common freeware, so I refer you to the corresponding w
 
 Which of the apps are to be installed can be fully customized and extended. Simply delete, **uncomment or add lines in the script.**
 
-### Basic Application Bundle
+### Developer Application Bundle
 
 <table class="tg">
 <thead>
@@ -67,21 +67,15 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <td class="tg-z8l7">Collaboration</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://zoom.us"> Zoom</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams</a><br/>
         <img src="readme-images/1a.png"><a href="https://discord.com/"> Discord</a><br/>
     </td>
-    <td class="tg-8l38">Zoom and Microsoft Teams are common video conference tools (both personal and corporate). Zoom may be not allowed in your company, in this case, you should disable it. Discord is for all the tech-people out there (disabled by default)</td>
+    <td class="tg-8l38">Zoom  video conference tools (both personal and corporate).Zoom may be not allowed in your company, in this case, you should disable it. Discord is for all the tech-people out there (disabled by default)</td>
   </tr>
   <tr>
     <td class="tg-z8l7">System administration</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://chocolatey.org/packages/ChocolateyGUI"> Chocolatey GUI</a><br/>
-        <img src="readme-images/1a.png"><a href="https://windirstat.net/"> WinDirStat</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.teamviewer.com/"> TeamViewer</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.cpuid.com/softwares/cpu-z.html"> CPU-Z</a><br/>
-        <img src="readme-images/1a.png"><a href="https://freecommander.com/en/summary/"> FreeCommander XE</a><br/>
-    </td>
-    <td class="tg-8l38">These tools help for a better system administration on your machine. Check the links or disable if you don't know them.</td>
+    <td class="tg-8l38">chocolatey graphical user interface.</td>
   </tr>
   <tr>
     <td class="tg-z8l7">Crypto</td>
@@ -91,22 +85,6 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     </td>
     <td class="tg-8l38">KeePass is a lean open-source password manager. VeraCrypt is the successor of TrueCrypt (hard disk encryption).</td>
   </tr>
-</tbody>
-</table>
-
-
-
-### Developer Application Bundle
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-8l38">Category</th>
-    <th class="tg-8l38" style="width: 33%;">Applications</th>
-    <th class="tg-8l38">Comments</th>
-  </tr>
-</thead>
-<tbody>
   <tr>
     <td class="tg-z8l7">General</td>
     <td class="tg-8l38">
@@ -118,23 +96,7 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <td class="tg-8l38">VS Code is a multipurpose coding editor. GitHub Desktop and Sourcetree are UIs for code management via git.</td>
   </tr>
   <tr>
-    <td class="tg-z8l7">API Clients</td>
-    <td class="tg-8l38">
-        <img src="readme-images/1a.png"><a href="https://www.postman.com/"> Postman</a><br/>
-        <img src="readme-images/1a.png"><a href="https://insomnia.rest/"> Insomnia</a><br/>
-    </td>
-    <td class="tg-8l38">Postman is a popular client for calling APIs. A leaner alternative is Insomnia, which I can really recommend. </td>
-  </tr>
-  <tr>
-    <td class="tg-z8l7">Cloud</td>
-    <td class="tg-8l38">
-        <img src="readme-images/0.png"><a href="https://docs.microsoft.com/de-de/cli/azure/"> Azure CLI</a><br/>
-        <img src="readme-images/0.png"><a href="https://github.com/99designs/aws-vault"> AWS Vault</a><br/>
-    </td>
-    <td class="tg-8l38">Azure CLI for local command-line development with Microsoft Azure  and AWS Vault for Amazon's AWS cloud. Both are not installed by default.</td>
-  </tr>
-  <tr>
-    <td class="tg-z8l7">Software Languages</td>
+    <td class="tg-z8l7">Programming Languages</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://docs.conda.io/en/latest/miniconda.html"> Anaconda (Miniconda)</a><br/>
         <img src="readme-images/0.png"><a href="https://nodejs.org/"> Node.js</a><br/>
@@ -144,12 +106,6 @@ Which of the apps are to be installed can be fully customized and extended. Simp
   </tr>
 </tbody>
 </table>
-
-
-### Applications that need to be installed manually
-
-Currently, [Spotify](https://www.spotify.com/de/download/) fails upon installation and is therefore not included in the script. 
-
 <br/>
 
 ### Download and Run script
@@ -163,7 +119,7 @@ Currently, [Spotify](https://www.spotify.com/de/download/) fails upon installati
 1. Open PowerShell as admin (`Win` +  `X` and select `PowerShell (Admin)`) and navigate to the downloaded folder.
 1. Run the script `install-choco.ps1`. If you should get an error, then local scripts are disabled on your machine. To enable them, type  
 `PowerShell.exe -ExecutionPolicy UnRestricted -File choco-install-apps.ps1`
-1. Wait and grab a **vanilla chocolate** :)
+1. Wait and grab your **software** :)
 
 
 You probably want to tidy up your [Windows Explorer right-click menu](https://www.howtogeek.com/howto/windows-vista/how-to-clean-up-your-messy-windows-context-menu/).
