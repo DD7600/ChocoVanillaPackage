@@ -1,6 +1,6 @@
-# The Choco Vanilla Package
+# My-Windows-Env
 
-![Header Image](readme-images/Header.jpg)
+![Header Image](readme-images/developer_tools.jpg)
 
 # Motivation
 
@@ -11,18 +11,14 @@ Luckily, with [Chocolatey](https://chocolatey.org/) there is a package manager f
 
 >I created a PowerShell script for Chocolatey which installs common freeware applications and optionally tools for more advanced uses, like git and VS Code. All fully customizable.
 
-*With this script, you can set up a *vanilla* Windows PC within minutes.*
+*With this script, you can set up a **your software tools within minutes.**
 
-# Short installation instructions
-Install [Chocolatey](https://chocolatey.org/), download the script, and run it. You will be asked if the basic apps bundle or developer apps bundle should be installed. Chocolatey then pulls the applications from the official servers and installs them in the background.
-
-For a more detailed description see section [below](#detailed-installation-instructions).
 
 # Included Applications
  
 All applications are very common freeware, so I refer you to the corresponding websites for further explanation. 
 
-Which of the apps are to be installed can be fully customized and extended. Simply delete, uncomment or add lines in the script.
+Which of the apps are to be installed can be fully customized and extended. Simply delete, **uncomment or add lines in the script.**
 
 (<img src="readme-images/1a.png">: Installed by default, <img src="readme-images/0.png">: Optionally installed )
 
@@ -41,10 +37,8 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <td class="tg-z8l7">Media Viewers</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://www.7-zip.org/"> 7zip</a><br/>
-        <img src="readme-images/1a.png"><a href="https://notepad-plus-plus.org/"> Notepad++</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.videolan.org"> VLC Player</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.irfanview.com/"> IrfanView (incl. Plugins)</a><br/>
         <img src="readme-images/1a.png"><a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html"> Adobe Reader</a><br/>
+ <img src="readme-images/1a.png"><a href="https://okular.kde.org/download/"> okular</a><br/>
         <img src="readme-images/0.png"><a href="https://www.foxitsoftware.com/pdf-reader/"> Foxit Reader</a><br/>
     </td>
     <td class="tg-8l38">Common freewares for all media formats (images &amp; movies), texts files, .zips, .raws, and PDFs.<br>For PDFs you can stick with the default Adobe Reader or alternatively choose Foxit Reader (my recommendation).</td>
@@ -53,25 +47,30 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <td class="tg-z8l7">Browsers</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://www.google.com/intl/en_us/chrome/"> Google Chrome</a><br/>
-        <img src="readme-images/0.png"><a href="https://www.mozilla.org/en-US/firefox/new/"> Mozilla Firefox</a><br/>
-        <img src="readme-images/0.png"><a href="https://www.opera.com"> Opera</a><br/>
+        <img src="readme-images/1a.png"><a href=""> Waterfox</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.opera.com"> Opera</a><br/>
+ <img src="readme-images/1a.png"><a href="https://vivaldi.com/download/"> Vivaldi</a><br/>
+  <img src="readme-images/1a.png"><a href="https://minbrowser.org/"> Min Browser</a><br/>
+ <img src="readme-images/1a.png"><a href="https://www.torproject.org/download/"> TorBrowser</a><br/>
     </td>
-    <td class="tg-8l38">Google Chrome will be installed by default. Alternatively, choose Firefox or Opera.</td>
+    <td class="tg-8l38">Google Chrome , Waterfox, Min ,Opera, ViValdi , TorBrowser</td>
   </tr>
   <tr>
-    <td class="tg-z8l7">File Sync</td>
+    <td class="tg-z8l7">Editor,IDE</td>
     <td class="tg-8l38">
-        <img src="readme-images/0.png"><a href="https://www.dropbox.com"> Dropbox</a><br/>
-        <img src="readme-images/0.png"><a href="https://www.google.com/drive/"> Google Drive</a><br/>
+    <img src="readme-images/1a.png"><a href="https://notepad-plus-plus.org/"> Notepad++</a><br/>
+    <img src="readme-images/1a.png"><a href="https://www.vim.org/download.php">Vim</a><br/>
+     <img src="readme-images/1a.png"><a href="https://www.eclipse.org/downloads/"> Eclipse </a><br/><img src="readme-images/1a.png"><a href="">Bluefish</a>
+       <br/>
     </td>
-    <td class="tg-8l38">Microsoft OneDrive is pre-installed on every Windows 10 system, so you probably won't need the others.</td>
+    <td class="tg-8l38">Text Editor Notepad++ , JAVA IDE, Bluefish for HTML, CSS , JAVASCRIPT ,PHP</td>
   </tr>
   <tr>
     <td class="tg-z8l7">Collaboration</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://zoom.us"> Zoom</a><br/>
         <img src="readme-images/1a.png"><a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams</a><br/>
-        <img src="readme-images/0.png"><a href="https://discord.com/"> Discord</a><br/>
+        <img src="readme-images/1a.png"><a href="https://discord.com/"> Discord</a><br/>
     </td>
     <td class="tg-8l38">Zoom and Microsoft Teams are common video conference tools (both personal and corporate). Zoom may be not allowed in your company, in this case, you should disable it. Discord is for all the tech-people out there (disabled by default)</td>
   </tr>
@@ -172,16 +171,16 @@ Currently, [Spotify](https://www.spotify.com/de/download/) fails upon installati
 If you are behind a proxy, check these [instructions](https://chocolatey.org/docs/proxy-settings-for-chocolatey#installing-chocolatey-behind-a-proxy-server).
 
 
-### Download and modify the Vanilla script
+### Download and Run script
 
 1. Clone this repo or download the .zip (then unzip the folder).
-1. Navigate to the downloaded folder and open up the script `choco-install-apps.ps1` in *Edit* Mode (right-click menu)
+1. Navigate to the downloaded folder and open up the script `install-choco.ps1` in *Edit* Mode (right-click menu)
 1. Enable or disable needed applications. The `#` sign comments a line out (disables it), deleting the leading `#` sign enables the line. See also [section below](#script-content).
 1. Save and close.
 
-### Execute Vanilla Script
+### Execute Script
 1. Open PowerShell as admin (`Win` +  `X` and select `PowerShell (Admin)`) and navigate to the downloaded folder.
-1. Run the script `choco-install-apps.ps1`. If you should get an error, then local scripts are disabled on your machine. To enable them, type  
+1. Run the script `install-choco.ps1`. If you should get an error, then local scripts are disabled on your machine. To enable them, type  
 `PowerShell.exe -ExecutionPolicy UnRestricted -File choco-install-apps.ps1`
 1. Wait and grab a **vanilla chocolate** :)
 
