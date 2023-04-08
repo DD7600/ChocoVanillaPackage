@@ -20,8 +20,6 @@ All applications are very common freeware, so I refer you to the corresponding w
 
 Which of the apps are to be installed can be fully customized and extended. Simply delete, **uncomment or add lines in the script.**
 
-(<img src="readme-images/1a.png">: Installed by default, <img src="readme-images/0.png">: Optionally installed )
-
 ### Basic Application Bundle
 
 <table class="tg">
