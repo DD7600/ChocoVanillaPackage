@@ -1,6 +1,6 @@
 # My-Windows-Env
 
-![Header Image](readme-images/developer_tools.jpg)
+<img src="readme-images/developer_tools.jpg" alt="Dev Tools" width="600" weigth="150" >
 
 # Motivation
 
