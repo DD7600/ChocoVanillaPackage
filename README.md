@@ -152,23 +152,6 @@ Currently, [Spotify](https://www.spotify.com/de/download/) fails upon installati
 
 <br/>
 
-# Detailed installation instructions
-
-
-### Chocolatey installation
-
-1. Open PowerShell as admin (`Win` +  `X` and select `PowerShell (Admin)`)
-2. Paste in the following line. It executes the official [installment script](https://chocolatey.org/install.ps1) from Chocolatey. 
-
-  ```	 
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))  
-  ```
-
-3. Chocolatey will be installed. It is normal that some warnings appear.
-
-If you are behind a proxy, check these [instructions](https://chocolatey.org/docs/proxy-settings-for-chocolatey#installing-chocolatey-behind-a-proxy-server).
-
-
 ### Download and Run script
 
 1. Clone this repo or download the .zip (then unzip the folder).
