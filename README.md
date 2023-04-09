@@ -1,4 +1,4 @@
-# My-Windows-Env
+# Windows-Dev-Tools
 
 <img src="readme-images/developer_tools.jpg" alt="Dev Tools" width="600" weigth="150" >
 
