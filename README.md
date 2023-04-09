@@ -56,6 +56,7 @@ Which of the apps are to be installed can be fully customized and extended. Simp
   <tr>
     <td class="tg-z8l7">Editor,IDE</td>
     <td class="tg-8l38">
+    <br/>
     <img src="readme-images/1a.png"><a href="https://notepad-plus-plus.org/"> Notepad++</a><br/>
     <img src="readme-images/1a.png"><a href="https://www.vim.org/download.php">Vim</a><br/>
      <img src="readme-images/1a.png"><a href="https://www.eclipse.org/downloads/"> Eclipse </a><br/><img src="readme-images/1a.png"><a href="">Bluefish</a>
@@ -78,31 +79,40 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <td class="tg-8l38">chocolatey graphical user interface.</td>
   </tr>
   <tr>
-    <td class="tg-z8l7">Crypto</td>
+    <td class="tg-z8l7">Encryption</td>
     <td class="tg-8l38">
-        <img src="readme-images/1a.png"><a href="https://keepass.info/"> KeePass</a><br/>
-        <img src="readme-images/0.png"><a href="https://www.veracrypt.fr/en/Home.html"> Veracrypt</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.veracrypt.fr/en/Home.html"> Veracrypt</a><br/>
     </td>
     <td class="tg-8l38">KeePass is a lean open-source password manager. VeraCrypt is the successor of TrueCrypt (hard disk encryption).</td>
   </tr>
   <tr>
-    <td class="tg-z8l7">General</td>
+    <td class="tg-z8l7">Tools</td>
     <td class="tg-8l38">
-        <img src="readme-images/1a.png"><a href="https://code.visualstudio.com/"> Visual Studio Code</a><br/>
+    <img src="readme-images/1a.png"><a href="https://www.gnu.org/software/wget/"> Wget</a><br/>
         <img src="readme-images/1a.png"><a href="https://git-scm.com/"> git</a><br/>
-        <img src="readme-images/1a.png"><a href="https://desktop.github.com/"> GitHub Desktop</a><br/>
-        <img src="readme-images/1a.png"><a href="https://www.sourcetreeapp.com/"> Sourcetree</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.apachefriends.org/download.html"> XAMPP</a><br/>
+    <img src="readme-images/1a.png"><a href="https://zealdocs.org/"> Zeal</a><br/>
     </td>
-    <td class="tg-8l38">VS Code is a multipurpose coding editor. GitHub Desktop and Sourcetree are UIs for code management via git.</td>
+    <td class="tg-8l38">Wget command line tool for for retrieving files using HTTP, HTTPS, FTP and FTPS,Git for code management via git.
+    XAMPP for Web server, Zeal for docsets  </td>
   </tr>
   <tr>
     <td class="tg-z8l7">Programming Languages</td>
     <td class="tg-8l38">
-        <img src="readme-images/1a.png"><a href="https://docs.conda.io/en/latest/miniconda.html"> Anaconda (Miniconda)</a><br/>
-        <img src="readme-images/0.png"><a href="https://nodejs.org/"> Node.js</a><br/>
-        <img src="readme-images/0.png"><a href="https://github.com/dotnet/core"> DotNet Core</a><br/>
+        <img src="readme-images/1a.png"><a href="https://docs.conda.io/en/latest/miniconda.html"> Anaconda (Miniconda)/Python3</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.java.com/download/ie_manual.jsp"> openJDK11(java)</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.java.com/download/ie_manual.jsp">C/C++</a><br/>
+        <img src="readme-images/1a.png"><a href="https://www.php.net/downloads.php"> PHP</a><br/>
+        <img src="readme-images/1a.png"><a href="https://nodejs.org/"> Node.js</a><br/>
+        <img src="readme-images/1a.png"><a href="https://github.com/dotnet/core"> DotNet Core</a><br/>
     </td>
-    <td class="tg-8l38">Since Python is very common, I included the Miniconda management suite by default. Miniconda is the small version of Anaconda (without the bulk software). Other languages are hard to guess, please <a href="https://chocolatey.org/packages?q=">look them up</a> by yourself.</td>
+    <td class="tg-8l38">Since Python is very common, Miniconda is the small version of Anaconda (without the bulk software).java SDK, C/C++, PHP , Nodejs , R for statistical Computing <a href="https://chocolatey.org/packages?q=">look them up</a> by yourself.</td>
+  </tr>
+  <tr>
+   <td class="tg-z8l7">Electronics</td>
+   <td class="tg-8l38">
+   <img src="readme-images/1a.png"><a href="https://docs.conda.io/en/latest/miniconda.html">Logisim</a><br/>
+   <td class="tg-8l38"> Logisim is a toolbar interface and simulation of circuits as you build them, it is simple enough to facilitate learning the most basic concepts related to logic circuits. With the capacity to build larger circuits from smaller subcircuits, and to draw bundles of wires with a single mouse drag, Logisim can be used to design and simulate</td>
   </tr>
 </tbody>
 </table>
