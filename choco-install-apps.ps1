@@ -4,6 +4,8 @@
 # For further instructions see: https://github.com/vii33/ChocoVanillaPackage
 
 $packagesDev = @{
+# --- Toys ---
+    powertoys='';
 # --- Editor , IDE , reader ---
     '7zip'='';
     notepadplusplus=''; 
@@ -12,6 +14,7 @@ $packagesDev = @{
     vim=''; 
     codelite=''; 
     eclipse=''; 
+    apache-netbeans.portable='';
    # vlc=''; 
    # irfanview='';
    # irfanviewplugins='';
@@ -20,14 +23,14 @@ $packagesDev = @{
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
 # --- Browsers ---
-    googlechrome='';
+    googlechrome='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     #firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
     opera='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     Waterfox='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
     vivaldi='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
     min.portable='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
 
-# --- File Sync Tools ---
+# --- File Sync Tools  ---
     #dropbox='';
     #googledrive='';
 
@@ -48,17 +51,19 @@ $packagesDev = @{
     veracrypt='';
     
     # --- Tools ---
-    #vscode='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     git='';
     Wget='';
     curl='';
+    checksum='';
+    md5='';
     OpenSSL.Light='';
     cppcheck='';
     doxygen.install.server='';
-    filezilla='';
+    filezilla='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
+    filezilla.server='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     tor='';
     umbrello.install='';
-    zeal='';
+    zeal='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     logisim-evolution='';
     
     #'github-desktop'='';
@@ -68,11 +73,12 @@ $packagesDev = @{
     #postman='';
     #'insomnia-rest-api-client'='';
 
-# --- Cloud ---
+# --- Cloud & Server ---
     #'azure-cli'='';
     #'aws-vault'='';
+    XAMPP='';
 
-# --- Languages ---
+# --- programming Languages ---
     miniconda3='--params="/InstallationType:JustMe /AddToPath:1 /RegisterPython:1"'; 
     openjdk='';
     mingw='';
@@ -85,33 +91,6 @@ $packagesDev = @{
     'dotnetcore-sdk'=''; 
         
 } 
-
-
-
-<# $packagesDev = @{
-# --- General ---
-    #vscode='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
-    git='';
-    #'github-desktop'='';
-    #sourcetree='';
-
-# --- API Clients ---
-    #postman='';
-    #'insomnia-rest-api-client'='';
-
-# --- Cloud ---
-    #'azure-cli'='';
-    #'aws-vault'='';
-
-# --- Languages ---
-    miniconda3='--params="/InstallationType:JustMe /AddToPath:1 /RegisterPython:1"'; 
-    'nodejs.install'='';
-    #'dotnetcore-sdk'='';   
-} #>
-# --------------------------------------------------------------
-
-
-
 
 # --------------------- Script start ---------------------------
 Write-Host "`n --- The CHOCO VANILLA PACKAGE --- " -ForegroundColor black -BackgroundColor white
