@@ -32,6 +32,14 @@ Which of the apps are to be installed can be fully customized and extended. Simp
 </thead>
 <tbody>
   <tr>
+	<td class="tg-z8l7">Windows utilities tools</td>
+	<td class="tg-8l38">
+		 <img src="readme-images/1a.png"><a href="https://learn.microsoft.com/en-us/windows/powertoys/"> PowerToys</a><br/>
+	</td>
+	<td class="tg-8l38">
+		Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
+	</td><br/>
+	</tr>
     <td class="tg-z8l7">Media Viewers</td>
     <td class="tg-8l38">
         <img src="readme-images/1a.png"><a href="https://www.7-zip.org/"> 7zip</a><br/>
@@ -59,10 +67,12 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <br/>
     <img src="readme-images/1a.png"><a href="https://notepad-plus-plus.org/"> Notepad++</a><br/>
     <img src="readme-images/1a.png"><a href="https://www.vim.org/download.php">Vim</a><br/>
-     <img src="readme-images/1a.png"><a href="https://www.eclipse.org/downloads/"> Eclipse </a><br/><img src="readme-images/1a.png"><a href="">Bluefish</a>
+     <img src="readme-images/1a.png"><a href="https://www.eclipse.org/downloads/"> Eclipse </a><br/>
+      <img src="readme-images/1a.png"><a href="https://netbeans.apache.org/"> Apache NetBeans </a><br/>
+     <img src="readme-images/1a.png"><a href="">Bluefish</a>
        <br/>
     </td>
-    <td class="tg-8l38">Text Editor Notepad++ , JAVA IDE, Bluefish for HTML, CSS , JAVASCRIPT ,PHP</td>
+    <td class="tg-8l38">Text Editor Notepad++ , JAVA IDE,ApacheNetBeans , Bluefish for HTML, CSS , JAVASCRIPT ,PHP</td>
   </tr>
   <tr>
     <td class="tg-z8l7">Collaboration</td>
