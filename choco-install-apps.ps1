@@ -11,7 +11,7 @@ $packagesDev = @{
     notepadplusplus=''; 
     notepadplusplus.install=''; 
     bluefish=''; 
-    vim=''; 
+    vim='--params="/NoDesktopShortcut"'; 
     codelite=''; 
     eclipse=''; 
     apache-netbeans.portable='';
