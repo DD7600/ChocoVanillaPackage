@@ -88,7 +88,9 @@ $packagesDev = @{
     python3='';
     
     'nodejs.install'='';
-    'dotnetcore-sdk'=''; 
+    'dotnetcore-sdk'='';
+# --- DataBase --
+    mysql='';
         
 } 
 

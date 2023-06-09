@@ -124,6 +124,11 @@ Which of the apps are to be installed can be fully customized and extended. Simp
    <img src="readme-images/1a.png"><a href="https://docs.conda.io/en/latest/miniconda.html">Logisim</a><br/>
    <td class="tg-8l38"> Logisim is a toolbar interface and simulation of circuits as you build them, it is simple enough to facilitate learning the most basic concepts related to logic circuits. With the capacity to build larger circuits from smaller subcircuits, and to draw bundles of wires with a single mouse drag, Logisim can be used to design and simulate</td>
   </tr>
+  <tr>
+  	<td class="tg-z8l7">DataBase</td>
+  	<td class="tg-8l38"> <img src="readme-images/1a.png"><a href="https://dev.mysql.com/downloads/installer/">Mysql</a></td>
+  	<td class="tg-8l38">MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.</td>
+  </tr>
 </tbody>
 </table>
 <br/>
