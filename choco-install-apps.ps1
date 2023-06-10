@@ -1,7 +1,7 @@
 # ------------- App hashtables ("dictionaries") -----------------
 
 # Modify this to you linking. Just un-comment or comment (#) software you want to have / don't want to have.
-# For further instructions see: https://github.com/vii33/ChocoVanillaPackage
+# For further instructions see:  https://github.com/Var7600/Your-Windows-dev-Tools
 
 $packagesDev = @{
 # --- Toys ---
