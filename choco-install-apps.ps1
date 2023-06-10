@@ -63,8 +63,11 @@ $packagesDev = @{
     filezilla.server='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     tor='';
     umbrello.install='';
+    modelio='--params="/NoDesktopIcon"';
     zeal='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     logisim-evolution='';
+    javadecompiler-gui='';
+    ditto='';
     
     #'github-desktop'='';
     #sourcetree='';
@@ -85,18 +88,24 @@ $packagesDev = @{
     make='';
     php='';
     R.project='';
-    python3='';
-    
-    'nodejs.install'='';
-    'dotnetcore-sdk'='';
+    python3='';    
+    nodejs.install='';
+    dotnetcore-sdk='';
 # --- DataBase --
     mysql='';
+# --- Recovery Tools --
+    testdisk-photorec='';
+# --- Code metrics --
+    sourcemonitor='';
+# --- Math & plot & calculator
+    qalculate='';
+    gnuplot.portable='';
         
 } 
 
 # --------------------- Script start ---------------------------
-Write-Host "`n --- The CHOCO VANILLA PACKAGE --- " -ForegroundColor black -BackgroundColor white
-Write-Host "https://github.com/vii33/ChocoVanillaPackage `n" -ForegroundColor green
+Write-Host "`n --- The CHOCO  PACKAGE --- " -ForegroundColor black -BackgroundColor white
+Write-Host "https://github.com/Var7600/Your-Windows-dev-Tools `n" -ForegroundColor green
 
 $Break = $False
 Do{
