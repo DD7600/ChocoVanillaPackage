@@ -74,7 +74,7 @@ Which of the apps are to be installed can be fully customized and extended. Simp
      <img src="readme-images/1a.png"><a href="https://www.codeblocks.org/">Codeblocks</a><br/>
        <br/>
     </td>
-    <td class="tg-8l38"><b>Text Editor Notepad++ , JAVA IDE(Eclipse |ApacheNetBeans ), Bluefish(for HTML, CSS , JAVASCRIPT ,PHP),CodeBlocks(C/C++)</b></td>
+    <td class="tg-8l38">Text Editor Notepad++ , JAVA IDE(Eclipse |ApacheNetBeans ), Bluefish(for HTML, CSS , JAVASCRIPT ,PHP),CodeBlocks(C/C++)</td>
   </tr>
   <tr>
     <td class="tg-z8l7">Collaboration</td>
@@ -120,7 +120,7 @@ Which of the apps are to be installed can be fully customized and extended. Simp
         <img src="readme-images/1a.png"><a href="https://github.com/dotnet/core"> DotNet Core</a><br/>
          <img src="readme-images/1a.png"><a href="https://go.dev/">Golang</a><br/>
     </td>
-    <td class="tg-8l38">Since <b>Python</b> is very common, <b>Miniconda</b> is the small version of Anaconda (without the bulk software). <b>Java SDK, C/C++, PHP , Nodejs , R for statistical Computing,Golang</b> .</td>
+    <td class="tg-8l38">Since <b>Python</b> is very common, <b>Miniconda</b> is the small version of Anaconda (without the bulk software). <b>Java SDK, C/C++, PHP , Nodejs , R for statistical Computing,Golang</b> <a href="https://chocolatey.org/packages?q=">look them up</a> by yourself.</td>
   </tr>
   <tr>
    <td class="tg-z8l7">Electronics</td>

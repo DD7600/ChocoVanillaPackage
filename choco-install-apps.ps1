@@ -6,13 +6,14 @@
 $packagesDev = @{
 # --- Toys ---
     powertoys='';
+    autohotkey='';
 # --- Editor , IDE , reader ---
     '7zip'='';
     notepadplusplus=''; 
     notepadplusplus.install=''; 
     bluefish=''; 
     vim='--params="/NoDesktopShortcut"'; 
-    codelite=''; 
+    codeblocks=''; 
     eclipse=''; 
     apache-netbeans.portable='';
    # vlc=''; 
@@ -26,6 +27,7 @@ $packagesDev = @{
     googlechrome='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     #firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
     opera='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
+    brave='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     Waterfox='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
     vivaldi='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
     min.portable='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
@@ -54,6 +56,9 @@ $packagesDev = @{
     git='';
     Wget='';
     curl='';
+    make='';
+    maven='';
+    nsis='';
     checksum='';
     md5='';
     OpenSSL.Light='';
@@ -91,6 +96,8 @@ $packagesDev = @{
     python3='';    
     nodejs.install='';
     dotnetcore-sdk='';
+    golang='';
+    
 # --- DataBase --
     mysql='';
 # --- Recovery Tools --
