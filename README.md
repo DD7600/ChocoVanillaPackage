@@ -69,12 +69,13 @@ Which of the apps are to be installed can be fully customized and extended. Simp
     <img src="readme-images/1a.png"><a href="https://notepad-plus-plus.org/"> Notepad++</a><br/>
     <img src="readme-images/1a.png"><a href="https://www.vim.org/download.php">Vim</a><br/>
      <img src="readme-images/1a.png"><a href="https://www.eclipse.org/downloads/"> Eclipse </a><br/>
+     <img src="readme-images/1a.png"><a href="https://www.jetbrains.com/"> intellijidea-community </a><br/>
       <img src="readme-images/1a.png"><a href="https://netbeans.apache.org/"> Apache NetBeans </a><br/>
      <img src="readme-images/1a.png"><a href="">Bluefish</a><br/>
      <img src="readme-images/1a.png"><a href="https://www.codeblocks.org/">Codeblocks</a><br/>
        <br/>
     </td>
-    <td class="tg-8l38"><b>Text Editor Notepad++ , JAVA IDE(Eclipse |ApacheNetBeans ), Bluefish(for HTML, CSS , JAVASCRIPT ,PHP),CodeBlocks(C/C++)</b></td>
+    <td class="tg-8l38"><b>Text Editor Notepad++ , JAVA IDE(Eclipse |ApacheNetBeans | IntelliJ),CodeBlocks(C/C++)</b></td>
   </tr>
   <tr>
     <td class="tg-z8l7">Collaboration</td>

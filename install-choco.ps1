@@ -2,4 +2,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Set-ExecutionPolicy UnRestricted -File choco-install-apps.ps1
 
-./choco-install-apps.ps1
+./apps.ps1
