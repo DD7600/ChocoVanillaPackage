@@ -73,6 +73,7 @@ $packagesDev = @{
     logisim-evolution='';
     javadecompiler-gui='';
     ditto='';
+    Everything='';
     
     #'github-desktop'='';
     #sourcetree='';
