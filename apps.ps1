@@ -7,26 +7,33 @@ $packagesDev = @{
 # --- Toys ---
     powertoys='';
     autohotkey='';
+# --- Productivity ---
+    ferdium='';
+    Everything='';
+    boostnote='--version 0.16.1.20220307';
 # --- Editor , IDE , reader ---
     '7zip'='';
     notepadplusplus=''; 
-    notepadplusplus.install=''; 
     #bluefish=''; 
-    vim='--params="/NoDesktopShortcut"'; 
+    vim='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
+    vscodium='--params="/NoDesktopShortcut /NoDesktopIcon"';
     codeblocks=''; 
     eclipse='';
+    ctags='';
+    lite-xl='';
     intellijidea-community='--params="/NoDesktopShortcut"';
     apache-netbeans.portable='';
    # vlc=''; 
-   # irfanview='';
-   # irfanviewplugins='';
+    irfanview='';
+    irfanviewplugins='';
     adobereader='--params="/UpdateMode:4"';
     okular='';
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
 # --- Browsers ---
     googlechrome='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
-    #firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
+    firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
+    librewolf='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
     opera='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     brave='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     Waterfox='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
@@ -43,7 +50,9 @@ $packagesDev = @{
     discord='';
 
 # --- System administration ---
-    chocolateygui='';    
+    chocolateygui='';
+    wireshark='--params="/NoDesktopShortcut /NoDesktopIcon"';
+    bulk-crap-uninstaller='--params="/NoDesktopShortcut /NoDesktopIcon"';
     #windirstat='';
     #teamviewer='';
     #'cpu-z.install'='';
@@ -74,6 +83,8 @@ $packagesDev = @{
     logisim-evolution='';
     javadecompiler-gui='';
     ditto='';
+    deepl='';
+    gtkwave='';
     
     #'github-desktop'='';
     #sourcetree='';
@@ -110,6 +121,7 @@ $packagesDev = @{
     gnuplot.portable='';
         
 } 
+# --------------------------------------------------------------
 
 # --------------------- Script start ---------------------------
 Write-Host "`n --- The CHOCO  PACKAGE --- " -ForegroundColor black -BackgroundColor white
