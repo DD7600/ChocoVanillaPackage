@@ -8,17 +8,17 @@ $packagesDev = @{
     powertoys='';
     autohotkey='';
 # --- Productivity ---
-    ferdium='';
-    Everything='';
+    ferdium='--params="/NoDesktopShortcut /NoDesktopIcon"';
+    Everything='--params="/NoDesktopShortcut /NoDesktopIcon"';
     boostnote='--version 0.16.1.20220307';
 # --- Editor , IDE , reader ---
     '7zip'='';
-    notepadplusplus=''; 
+    notepadplusplus='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
     #bluefish=''; 
     vim='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
     vscodium='--params="/NoDesktopShortcut /NoDesktopIcon"';
-    codeblocks=''; 
-    eclipse='';
+    codeblocks='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
+    eclipse='--params="/NoDesktopShortcut /NoDesktopIcon"';
     ctags='';
     lite-xl='';
     intellijidea-community='--params="/NoDesktopShortcut"';
@@ -27,7 +27,7 @@ $packagesDev = @{
     irfanview='';
     irfanviewplugins='';
     adobereader='--params="/UpdateMode:4"';
-    okular='';
+    okular='--params="/NoDesktopShortcut /NoDesktopIcon"';
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
 # --- Browsers ---
@@ -45,7 +45,7 @@ $packagesDev = @{
     #googledrive='';
 
 # --- Collaboration Tools ---
-    zoom='';    
+    zoom='--params="/NoDesktopShortcut /NoDesktopIcon"';    
     #'microsoft-teams'='';
     discord='';
 
@@ -119,6 +119,8 @@ $packagesDev = @{
 # --- Math & plot & calculator
     qalculate='';
     gnuplot.portable='';
+# --- image editing
+    imagemagick='--params="/NoDesktopIcon"';
         
 } 
 # --------------------------------------------------------------
