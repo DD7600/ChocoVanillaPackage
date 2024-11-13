@@ -1,16 +1,51 @@
+"leader key
+let mapleader=","
+
+"check spelling
+nmap <silent> <leader>s :set spell!<CR>
+set spell spelllang=en_us,fr
+"clipboard
+"set clipboard=unamedplus
+
 set number    "line number
+set relativenumber
 syntax on
 syntax enable
 set mouse=a
 set autoindent
 set smartindent
 set smartcase
+set noerrorbells
+set showmatch " Show matching words during a search.
+set foldmethod=indent
+set foldlevel=99
 set wrap
 set showmatch "Show matching words during search
 set shiftwidth=2 "number of spaces to use for indenting
 set softtabstop=2 "number of tabs to use for indenting
+set colorcolumn=80
 set tabstop=2
+filetype on "vim filetype detection
 set undofile
+"set cursorline Highlight cursor line underneath the cursor horizontally 
+set signcolumn=auto "add one more column to the left
+"set bell-style none
+set autowrite " Automatically save 
+
+"easier moving of block of code
+vnoremap < <gv "better indentation
+vnoremap > >gv "better indentation
+
+"Colorscheme
+colorscheme desert
+
+"a man page viewer in vim
+runtime! ftplugin/man.vim
+
+"Makefile shorcuts
+nnoremap <leader>m :!make<CR>
+nnoremap <leader>M :!make all<CR><CR>
+nnoremap <leader>mt :!make test<CR>
 
 "highlighting search
 set hlsearch "highlighting when doing a search
@@ -21,13 +56,57 @@ set backspace=indent,eol,start
 
 set wildmenu "Display all matching files when tab complete
 
+"move lines with ctrl + j/k
+nnoremap <C-j> :m -2<CR>
+nnoremap <C-k> :m +1<CR>
+"buffer
+"open buffer
+nmap <C-t> :enew<CR>
+"move to next buffer
+nmap <C-n> :bnext<CR>
+"move to previous buffer
+nmap <C-b> :bprevious<CR>
+"close the current buffer
+nmap <C-x> :bd<CR>
+"show all open buffers and their status
+nmap <C-l> :ls<CR>
+
+"Colorscheme
+"colorscheme darkblue
+
 call plug#begin()
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'scrooloose/syntastic'
+Plug 'https://github.com/voldikss/vim-floaterm'
+Plug 'junegunn/fzf',{ 'do' : { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-scripts/taglist.vim'
+Plug 'jiangmiao/auto-pairs' "auto close
+Plug 'https://github.com/Var7600/vim-commands'
 call plug#end()
 
+" Show tags
+noremap t :TlistToggle
+
+" Reveal in taglist
+nmap t :TlistHighlightTag
+
+"taglist config
+let Tlist_Show_One_File = 1  
+let Tlist_Exit_OnlyWindow = 1  
+let Tlist_Use_SingleClick = 1  
+let Tlist_GainFocus_On_ToggleOpen = 1  
+let Tlist_Close_On_Select = 0  
+let Tlist_WinWidth = 30  
+let Tlist_Auto_Highlight_Tag = 1
+
+"floaterm mapping
+let g:floaterm_keymap_toggle='<C-t>'
+let g:floaterm_width=0.8
+let g:floaterm_autoclose=2
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -37,3 +116,34 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"move lines with ctrl + j/k
+nnoremap <C-j> :m -2<CR>
+nnoremap <C-k> :m +1<CR>
+
+"create the tags file (may need to install ctags first)
+command! MakeTags !ctags -R
+
+"Ctags to look in cmd
+set tags=./tags;/
+
+" You can split a window into sections by typing `:split` or `:vsplit`.
+" Display cursorline and cursorcolumn ONLY in active window.
+augroup cursor_off
+    autocmd!
+    autocmd WinLeave * set nocursorline nocursorcolumn
+    autocmd WinEnter * set cursorline 
+augroup END
+
+augroup project
+  autocmd!
+  autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
+augroup END
+
+" If Vim version is equal to or greater than 7.3 enable undofile.
+" This allows you to undo changes to a file even after saving it.
+if version >= 703
+    set undodir=~/.vim/backup
+    set undofile
+    set undoreload=10000
+endif
