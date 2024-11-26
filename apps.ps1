@@ -163,6 +163,11 @@ $packagesDev = @{
 # 	image editing
 #---------------------
     imagemagick='--params="/NoDesktopIcon"';
+
+# -------------------- 
+# 	video editing
+#---------------------
+	 'obs-studio'='--params="/NoDesktopIcon"';
         
 } 
 # --------------------------------------------------------------
