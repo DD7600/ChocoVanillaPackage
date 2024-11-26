@@ -155,7 +155,7 @@ Which of the apps are to be installed can be fully customized and extended. Simp
 
 1. Open PowerShell as admin (`Win` +  `X` and select `PowerShell (Admin)`) and navigate to the downloaded folder.
 2. Run the script `install-choco.ps1`. If you should get an error, then local scripts are disabled on your machine. To enable them, type  
-   `PowerShell.exe -ExecutionPolicy UnRestricted -File choco-install-apps.ps1`
+   `Set-ExecutionPolicy UnRestricted` in PowerShell(Admin)
 3. Wait and grab your **software** :)
 
 You probably want to tidy up your [Windows Explorer right-click menu](https://www.howtogeek.com/howto/windows-vista/how-to-clean-up-your-messy-windows-context-menu/).

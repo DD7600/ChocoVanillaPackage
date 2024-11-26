@@ -7,22 +7,29 @@ $packagesDev = @{
 # --- Toys ---
     powertoys='';
     autohotkey='';
-# --- Productivity ---
+# ---------------------
+#		Productivity 
+#----------------------	
+
     ferdium='--params="/NoDesktopShortcut /NoDesktopIcon"';
     Everything='--params="/NoDesktopShortcut /NoDesktopIcon"';
     boostnote='--version 0.16.1.20220307';
-# --- Editor , IDE , reader ---
+	
+# ---------------------------- 
+#	Editor , IDE , reader ---
+#-----------------------------
+
     '7zip'='';
     notepadplusplus='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
-    #bluefish=''; 
     vim='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
     vscodium='--params="/NoDesktopShortcut /NoDesktopIcon"';
     codeblocks='--params="/NoDesktopShortcut /NoDesktopIcon"'; 
     eclipse='--params="/NoDesktopShortcut /NoDesktopIcon"';
     ctags='';
-    lite-xl='';
-    intellijidea-community='--params="/NoDesktopShortcut"';
-    apache-netbeans.portable='';
+    'lite-xl'='';
+    'intellijidea-community'='--params="/NoDesktopShortcut"';
+    'apache-netbeans.portable'='';
+	marktext='--params="/NoDesktopShortcut /NoDesktopIcon"';
    # vlc=''; 
     irfanview='';
     irfanviewplugins='';
@@ -30,7 +37,10 @@ $packagesDev = @{
     okular='--params="/NoDesktopShortcut /NoDesktopIcon"';
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
-# --- Browsers ---
+# ---------------
+# 	Browsers ---
+#----------------
+
     googlechrome='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
     librewolf='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
@@ -38,27 +48,39 @@ $packagesDev = @{
     brave='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
     Waterfox='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
     vivaldi='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
-    min.portable='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
+    'min.portable'='--params="/NoDesktopShortcut /NoTaskbarShortcut"' ;
+	chromium='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
 
-# --- File Sync Tools  ---
+# ----------------------- 
+#	File Sync Tools  ---
+#------------------------
+
     #dropbox='';
     #googledrive='';
 
-# --- Collaboration Tools ---
+# -----------------------
+# Collaboration Tools ---
+# -----------------------
+
     zoom='--params="/NoDesktopShortcut /NoDesktopIcon"';    
     #'microsoft-teams'='';
     discord='';
 
-# --- System administration ---
+# ------------------------- 
+# System administration ---
+# -------------------------
+
     chocolateygui='';
     wireshark='--params="/NoDesktopShortcut /NoDesktopIcon"';
-    bulk-crap-uninstaller='--params="/NoDesktopShortcut /NoDesktopIcon"';
-    #windirstat='';
-    #teamviewer='';
+    'bulk-crap-uninstaller'='--params="/NoDesktopShortcut /NoDesktopIcon"';
+    windirstat='';
     #'cpu-z.install'='';
-    #'freecommander-xe.install'='';
 
-# --- Crypto & PassWord ---
+
+# ------------------------- 
+# 	Crypto & PassWord ---
+# --------------------------
+
     #keepass='';
     veracrypt='';
     
@@ -71,17 +93,17 @@ $packagesDev = @{
     nsis='';
     checksum='';
     md5='';
-    OpenSSL.Light='';
-    cppcheck='';
-    doxygen.install.server='';
+    'OpenSSL.Light'='';
+    #cppcheck='';
+    'doxygen.install.server'='';
     filezilla='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
-    filezilla.server='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
+    'filezilla.server'='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     tor='';
-    umbrello.install='';
+    'umbrello.install'='';
     modelio='--params="/NoDesktopIcon"';
     zeal='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
-    logisim-evolution='';
-    javadecompiler-gui='';
+    'logisim-evolution'='';
+    'javadecompiler-gui'='';
     ditto='';
     deepl='';
     gtkwave='';
@@ -89,37 +111,57 @@ $packagesDev = @{
     #'github-desktop'='';
     #sourcetree='';
 
-# --- API Clients ---
+# ------------------ 
+#	API Clients ---
+# ------------------
+
     #postman='';
     #'insomnia-rest-api-client'='';
 
-# --- Cloud & Server ---
+# ------------------ 
+# Cloud & Server ---
+# -------------------
+
     #'azure-cli'='';
     #'aws-vault'='';
-    XAMPP='';
+    #XAMPP='';
 
-# --- programming Languages ---
+# ------------------------- 
+#	programming Languages 
+#--------------------------
+
     miniconda3='--params="/InstallationType:JustMe /AddToPath:1 /RegisterPython:1"'; 
     openjdk='';
     mingw='';
-    make='';
     php='';
-    R.project='';
+    'R.project'='';
     python3='';    
-    nodejs.install='';
-    dotnetcore-sdk='';
+    'nodejs.install'='';
+    'dotnetcore-sdk'='';
     golang='';
     
-# --- DataBase --
+# ----------- 
+# DataBase --
+# -----------
+
     mysql='';
+	
 # --- Recovery Tools --
-    testdisk-photorec='';
-# --- Code metrics --
+    #testdisk-photorec='';
+
+# --- Code metrics ----
     sourcemonitor='';
-# --- Math & plot & calculator
+	
+# --------------------------- 
+#	Math & plot & calculator
+# ---------------------------
+
     qalculate='';
-    gnuplot.portable='';
-# --- image editing
+    'gnuplot.portable'='';
+	
+# -------------------- 
+# 	image editing
+#---------------------
     imagemagick='--params="/NoDesktopIcon"';
         
 } 
