@@ -7,6 +7,7 @@ $packagesDev = @{
 # --- Toys ---
     powertoys='';
     autohotkey='';
+	'yt-dlp'='';
 # ---------------------
 #		Productivity 
 #----------------------	
