@@ -169,6 +169,7 @@ $packagesDev = @{
 # 	video editing
 #---------------------
 	 'obs-studio'='--params="/NoDesktopIcon"';
+	 ffmpeg='';
         
 } 
 # --------------------------------------------------------------
