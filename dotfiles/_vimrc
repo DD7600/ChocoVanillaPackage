@@ -85,6 +85,12 @@ Plug 'girishji/vimcomplete' "auto complete feature
 Plug 'https://github.com/tpope/vim-endwise' "auto close some structures
 Plug 'vim-scripts/taglist.vim'
 Plug 'preservim/tagbar' "browse the tags file
+"python mode on vim
+Plug 'python-mode/python-mode',{'for': 'python' , 'branch': 'develop'} 
+"displaying thin vertical lines at each indentation level for code indented with spaces
+Plug 'https://github.com/Yggdroot/indentLine'
+" Can be configured to support a variety of languages. Built-in support for C, C++ and ADA95
+Plug 'https://github.com/pseewald/vim-anyfold'
 call plug#end()
 
 " Show tags
@@ -125,6 +131,12 @@ command! MakeTags !ctags -R
 
 "Ctags to look in cmd
 set tags=./tags;/
+
+"indentLile config
+let g:indentLine_char = '┆'
+let g:indentLine_enabled = 1
+set list lcs=tab:\|\ "(here is a space)
+":IndentLinesToggle toggles lines on and off.
 
 " You can split a window into sections by typing `:split` or `:vsplit`.
 " Display cursorline and cursorcolumn ONLY in active window.
